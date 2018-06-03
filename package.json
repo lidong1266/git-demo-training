@@ -1,0 +1,28 @@
+{
+  "name": "git-demo-training",
+  "version": "1.0.0",
+  "description": "only training for git",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lidong1266/git-demo-training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lidong1266/git-demo-training/issues"
+  },
+  "homepage": "https://github.com/lidong1266/git-demo-training#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
